@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/standard_padding">
+
+    <TextView
+        android:id="@+id/employee_id_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/recyclerview_employee_id_placeholder_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/employee_name_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/standard_margin"
+        android:text="@string/recyclerview_employee_name_placeholder_text"
+        app:layout_constraintStart_toStartOf="@+id/employee_id_textview"
+        app:layout_constraintTop_toBottomOf="@+id/employee_id_textview" />
+
+    <TextView
+        android:id="@+id/employee_salary_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/standard_margin"
+        android:text="@string/recyclerview_employee_salary_placeholder_text"
+        app:layout_constraintStart_toStartOf="@+id/employee_name_textview"
+        app:layout_constraintTop_toBottomOf="@+id/employee_name_textview" />
+
+    <TextView
+        android:id="@+id/employee_age_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/standard_margin"
+        android:text="@string/recyclerview_employee_age_placeholder_text"
+        app:layout_constraintStart_toStartOf="@+id/employee_salary_textview"
+        app:layout_constraintTop_toBottomOf="@+id/employee_salary_textview" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

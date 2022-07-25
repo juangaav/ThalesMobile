@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ThalesMobile</string>
+    <string name="textview_hint">Please type Employee ID</string>
+    <string name="button_text">Go</string>
+    <string name="recyclerview_employee_id_placeholder_text">ID: </string>
+    <string name="recyclerview_employee_name_placeholder_text">Name: </string>
+    <string name="recyclerview_employee_salary_placeholder_text">Salary: </string>
+    <string name="recyclerview_employee_age_placeholder_text">Age: </string>
+    <string name="toast_error_api">Unable to contact API.</string>
+    <string name="ok_button_text">OK</string>
+
+</resources>
